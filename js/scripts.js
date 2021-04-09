@@ -1,5 +1,5 @@
-    { name: 'charmander', height: .6, type: 'fire'};
-    { name: 'krabby', height: .4, type: 'water'};
-    { name: 'diglett', height: .2, type: 'ground'}
 let pokemonList = [
+    { name: 'charmander', height: 0.6, types: ['fire', 'none']},
+    { name: 'krabby', height: 0.4, types: ['water', 'none']},
+    { name: 'venomoth', height: 1.5, types: ['bug', 'poison']}
 ];
