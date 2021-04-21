@@ -59,3 +59,9 @@ let pokemonRepository = (function() {
      the output global */
 let pokedex = pokemonRepository.getAll();
   
+    /* function to write the name and height of the pokemon on the 
+    webpage in plain formatting. */
+pokedex.forEach(function(pokemon) {
+    document.write(pokemon.name + ' (height: ' + pokemon.height + ') ');
+  });
+  
