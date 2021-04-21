@@ -30,3 +30,9 @@ let pokemonRepository = (function() {
       { name: 'Krabby', height: 0.4, types: ['water', 'none']},
       { name: 'Venomoth', height: 1.5, types: ['bug', 'poison']}
     ]
+  
+    /* function.getAll to display the info from the selected array when 
+    called. */
+    function getAll() {
+      return pokemonList;
+    }
