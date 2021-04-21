@@ -46,3 +46,11 @@ let pokemonRepository = (function() {
       if(Object.keys(item) === Object.keys(pokemonList) ? add : 
       'Not conforming keys');
     }
+    /* return to make the output of the functions callable to an 
+    outside function or variable. */
+    return {
+      add: add,
+      getAll: getAll
+    }
+  
+  })();
