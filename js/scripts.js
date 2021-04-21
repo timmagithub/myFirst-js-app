@@ -36,3 +36,13 @@ let pokemonRepository = (function() {
     function getAll() {
       return pokemonList;
     }
+    /* function.add to add a new pokemon, .push to place the object at 
+    the end of the array, and an if statement checking the typeof item 
+    to verify it's an object. another if statement verifying that the 
+    item has the same object keys as the pokemonList. */
+    function add(item) {
+      pokemonList.push(item);
+      if(typeof item === object ? add : 'Not an object');
+      if(Object.keys(item) === Object.keys(pokemonList) ? add : 
+      'Not conforming keys');
+    }
