@@ -65,3 +65,7 @@ pokedex.forEach(function(pokemon) {
     document.write(pokemon.name + ' (height: ' + pokemon.height + ') ');
   });
   
+    /*function to add the exclamatory text to qualifying pokemon.*/
+pokedex.forEach(function(pokemon) {
+    document.write(pokemon.height > 1 ? 'Wow, that is a big one!' : '');
+  });
