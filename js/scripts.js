@@ -16,3 +16,8 @@ for (let i=0; i<pokemonList.length; i++) {
     }
     else document.write(pokemonList[i].name + ' (height: ' + 
     pokemonList[i].height + '). ')
+}
+*/
+
+/* Ver1.2 */
+
