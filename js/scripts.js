@@ -19,6 +19,8 @@ for (let i=0; i<pokemonList.length; i++) {
 }
 */
 
+
+
 /* Ver1.2 */
 
     /* list inside function wrapped in IIFE. this cements the list as 
@@ -45,6 +47,16 @@ let pokemonRepository = (function() {
       if(typeof item === object ? add : 'Not an object');
       if(Object.keys(item) === Object.keys(pokemonList) ? add : 
       'Not conforming keys');
+    }
+
+    /* two functions to log the pokemon details in the console log on 
+    the eventListener of the mouse click. */
+    function showDetails(pokemon) {
+        console.log(pokemon);
+    }
+    
+    function logEvent(button, pokemon) {
+        button.addEventListener('click', showDetails);
     }
     /* return to make the output of the functions callable to an 
     outside function or variable. */
