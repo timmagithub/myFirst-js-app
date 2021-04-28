@@ -58,6 +58,28 @@ let pokemonRepository = (function() {
     function logEvent(button, pokemon) {
         button.addEventListener('click', showDetails);
     }
+
+    /*function to create a list of buttons with the pokemon's names on them
+    and add it to the DOM*/
+    function addListItem(pokemon){
+        let listElement = document.querySelector('.pokemon-list');
+        let listItem = document.createElement('li');
+    
+        let button = document.createElement('button');
+        button.innerText = pokemon.name;
+        button.classList.add(pokemon-button);
+
+
+     /* one way of doing eventListener for element, but best practice
+     is to define as own function: 
+     button.addEventListener('click', showDetails);*/
+    
+        listItem.appendChild(button);
+        listElement.appendChild(listItem);
+
+        logEvent(button, pokemon);
+    }
+
     /* return to make the output of the functions callable to an 
     outside function or variable. */
     return {
