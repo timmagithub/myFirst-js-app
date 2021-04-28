@@ -90,10 +90,10 @@ let pokemonRepository = (function() {
   })();
   
   
-    /* function to write the name and height of the pokemon on the 
-    webpage in plain formatting. */
-pokedex.forEach(function(pokemon) {
-    document.write(pokemon.name + ' (height: ' + pokemon.height + ') ');
+    /*calling the funcion for displaying the buttons with pokemon 
+    on the homepage. */
+pokemonRepository.getAll().forEach(function(pokemon) {
+    pokemonRepository.addListItem(pokemon);
   });
   
     /*function to add the exclamatory text to qualifying pokemon.*/
