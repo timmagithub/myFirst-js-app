@@ -84,7 +84,8 @@ let pokemonRepository = (function() {
     outside function or variable. */
     return {
       add: add,
-      getAll: getAll
+      getAll: getAll,
+      addListItem: addListItem
     }
   
   })();
