@@ -15,7 +15,7 @@
 body {
     background-color: var(--primary-color);
     font-family: 'Bitter', serif;
-    font-weight: 1500;
+    font-style: oblique;
   }
 
 main {
