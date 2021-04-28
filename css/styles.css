@@ -58,9 +58,11 @@ ul {
     align-items: center;
 }
 
-.pokemon-button {
-    background-color: var(--tertiary-color);
+.pokemonbutton {
+    background-color: #425a59;
     color: #fff;
     border-radius: 5%;
+    border: 5px solid #000;
     padding: var(--common-padding);
 }
+
