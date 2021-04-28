@@ -96,7 +96,20 @@ pokemonRepository.getAll().forEach(function(pokemon) {
     pokemonRepository.addListItem(pokemon);
   });
   
-    /*function to add the exclamatory text to qualifying pokemon.*/
+    /*function to add the exclamatory text to qualifying pokemon.
 pokedex.forEach(function(pokemon) {
     document.write(pokemon.height > 1 ? 'Wow, that is a big one!' : '');
+    let listElement = document.querySelector('.pokemon-list');
+    let listItem = document.createElement('li');
+
+    let button = document.createElement('button');
+    button.innerText = pokedex.name;
+    button.classList.add(pokemon-button);
+
+    listItem.appendChild(button);
+    listElement.appendChild(listItem);
   });
+*/
+
+
+ 
