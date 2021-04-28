@@ -50,3 +50,14 @@ footer {
     padding: var(--common-padding); 
     background-color: var(--tertiary-color);
 }   
+
+ul {
+    list-style: none;
+}
+
+.pokemon-button {
+    background-color: var(--tertiary-color);
+    color: #fff;
+    border-radius: 5%;
+    padding: var(--common-padding);
+}
