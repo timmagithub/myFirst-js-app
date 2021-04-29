@@ -49,14 +49,12 @@ let pokemonRepository = (function() {
       'Not conforming keys');
     }
 
-    /* two functions to log the pokemon details in the console log on 
+    /* functions to log the pokemon details in the console log on 
     the eventListener of the mouse click. */
-    function showDetails(pokemon) {
-        console.log(pokemon);
-    }
-    
     function logEvent(button, pokemon) {
-        button.addEventListener('click', showDetails);
+        button.addEventListener('click', function showDetails() {
+            console.log(pokemon);
+        }) 
     }
 
     /*function to create a list of buttons with the pokemon's names on them
