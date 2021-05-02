@@ -16,6 +16,19 @@ let pokemonRepository = (function() {
         )    
     }    
 
+    //addListItem
+    function addListItem(pokemon){
+        let listElement = document.querySelector('.pokemon-list');
+        let listItem = document.createElement('li');
+        let button = document.createElement('button');
+        button.innerText = pokemon.name;
+        button.classList.add('pokemonbutton');
+        listItem.appendChild(button);
+        listElement.appendChild(listItem);
+        button.addEventListener('click', function(event){
+            showDetails(pokemon);
+        })
+    }
 first rendition of code. didn't want to disregard.
 
 let pokemonList = [
@@ -45,23 +58,8 @@ for (let i=0; i<pokemonList.length; i++) {
         }) 
     }
 
-    function addListItem(pokemon){
-        let listElement = document.querySelector('.pokemon-list');
-        let listItem = document.createElement('li');
-    
-        let button = document.createElement('button');
-        button.innerText = pokemon.name;
-        button.classList.add('pokemonbutton');
-
-
     /* Function removed because it was no longer needed.
     
-        listItem.appendChild(button);
-        listElement.appendChild(listItem);
-
-        logEvent(button, pokemon);
-    }
-
     return {
       add: add,
       getAll: getAll,
