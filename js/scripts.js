@@ -78,6 +78,13 @@ let pokemonRepository = (function() {
 })();
   
   
+//pokemonRepository promise
+pokemonRepository.loadList().then(function() {
+    pokemonRepository.getAll().forEach(function(pokemon) {
+    pokemonRepository.addListItem(pokemon);
+  });
+});
+ 
 first rendition of code. didn't want to disregard.
 
 let pokemonList = [
