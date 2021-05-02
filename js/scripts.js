@@ -65,6 +65,19 @@ let pokemonRepository = (function() {
         });
     }     
 
+    //return
+    return {
+        add: add,
+        getAll: getAll,
+        addListItem: addListItem,
+        loadList: loadList,
+        loadDetails: loadDetails,
+        showDetails: showDetails
+    }
+    
+})();
+  
+  
 first rendition of code. didn't want to disregard.
 
 let pokemonList = [
@@ -96,15 +109,6 @@ for (let i=0; i<pokemonList.length; i++) {
 
     /* Function removed because it was no longer needed.
     
-    return {
-      add: add,
-      getAll: getAll,
-      addListItem: addListItem
-    }
-  
-  })();
-  
-  
 pokemonRepository.getAll().forEach(function(pokemon) {
     pokemonRepository.addListItem(pokemon);
   });
