@@ -16,6 +16,11 @@ let pokemonRepository = (function() {
         )    
     }    
 
+    //getAll
+    function getAll() {
+        return pokemonList;
+      }
+
     //addListItem
     function addListItem(pokemon){
         let listElement = document.querySelector('.pokemon-list');
