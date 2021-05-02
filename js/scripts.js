@@ -105,21 +105,8 @@ for (let i=0; i<pokemonList.length; i++) {
 }
 */
 
-    function getAll() {
-      return pokemonList;
-    }
-    function logEvent(button, pokemon) {
-        button.addEventListener('click', function showDetails() {
-            console.log(pokemon);
-        }) 
-    }
-
     /* Function removed because it was no longer needed.
     
-pokemonRepository.getAll().forEach(function(pokemon) {
-    pokemonRepository.addListItem(pokemon);
-  });
-  
     function to add the exclamatory text to qualifying pokemon.
 pokedex.forEach(function(pokemon) {
     document.write(pokemon.height > 1 ? 'Wow, that is a big one!' : '');
