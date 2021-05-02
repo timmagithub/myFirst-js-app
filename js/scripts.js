@@ -58,6 +58,13 @@ let pokemonRepository = (function() {
           console.error(e);
         })
     }    
+    //showDetails
+    function showDetails(item) {
+        loadDetails(item).then(function () {
+          console.log(item);
+        });
+    }     
+
 first rendition of code. didn't want to disregard.
 
 let pokemonList = [
