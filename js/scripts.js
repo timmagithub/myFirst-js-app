@@ -85,6 +85,26 @@ pokemonRepository.loadList().then(function() {
   });
 });
  
+//poekmonapi fetch
+fetch('https://pokeapi.co/api/v2/pokemon/?limit=1118').then(function (response) {
+  return response.json(); 
+}).then(function (pokemonList) {
+  console.log(pokemonList); 
+}).catch(function () {
+});
+
+
+
+
+
+
+
+
+
+
+
+
+  /*Ver 1.1
 first rendition of code. didn't want to disregard.
 
 let pokemonList = [
