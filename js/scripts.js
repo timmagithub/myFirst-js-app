@@ -5,6 +5,17 @@ let pokemonRepository = (function() {
     let pokemonList = [];
     let apiUrl = 'https://pokeapi.co/api/v2/pokemon/?limit=1118';
   
+    //add
+    function add(pokemon) {  
+        if(typeof pokemon === 'object' &&
+            'name' in pokemon
+        )   {
+            pokemonList.push(pokemon);
+        } else (
+            console.log('pokemon is not correct')
+        )    
+    }    
+
 first rendition of code. didn't want to disregard.
 
 let pokemonList = [
@@ -28,13 +39,6 @@ for (let i=0; i<pokemonList.length; i++) {
     function getAll() {
       return pokemonList;
     }
-    function add(item) {
-      pokemonList.push(item);
-      if(typeof item === object ? add : 'Not an object');
-      if(Object.keys(item) === Object.keys(pokemonList) ? add : 
-      'Not conforming keys');
-    }
-
     function logEvent(button, pokemon) {
         button.addEventListener('click', function showDetails() {
             console.log(pokemon);
