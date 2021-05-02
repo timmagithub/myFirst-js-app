@@ -1,3 +1,10 @@
+/* Ver1.2   Notes numbered and at very bottom of code*/
+
+//pokemonRepository
+let pokemonRepository = (function() {
+    let pokemonList = [];
+    let apiUrl = 'https://pokeapi.co/api/v2/pokemon/?limit=1118';
+  
 first rendition of code. didn't want to disregard.
 
 let pokemonList = [
@@ -18,17 +25,6 @@ for (let i=0; i<pokemonList.length; i++) {
 }
 */
 
-
-
-/* Ver1.2 */
-
-let pokemonRepository = (function() {
-    let pokemonList = [
-      { name: 'Charmander', height: 0.6, types: ['fire', 'none']},
-      { name: 'Krabby', height: 0.4, types: ['water', 'none']},
-      { name: 'Venomoth', height: 1.5, types: ['bug', 'poison']}
-    ]
-  
     function getAll() {
       return pokemonList;
     }
