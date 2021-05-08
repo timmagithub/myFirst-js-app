@@ -66,3 +66,35 @@ ul {
     padding: var(--common-padding);
 }
 
+.modal {
+    margin: auto;
+    display: inline-block;
+    box-sizing: border-box;
+    background: #fff;
+    padding: 15px;
+    width: 100%;
+    max-width: 700px;
+    text-align: left;
+  }
+
+.modal-container {
+    display: none;
+}
+
+.modal-containter.is-visible {
+    margin: auto;
+    display: block;
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 15px;
+    width: 100%;
+    max-width: 700px;
+    text-align: left;
+}
+
+.modal-close {
+    float: right;
+    border: 0;
+    background: none;
+    color: var(--primary-color);
+}
