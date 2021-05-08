@@ -65,11 +65,12 @@ let pokemonRepository = (function() {
         })
     }    
     //showDetails
-    function showDetails(item) {
-        loadDetails(item).then(function () {
-          console.log(item);
+      function showDetails(pokemon) {
+        loadDetails(pokemon).then(function () {
+          console.log(pokemon);
+          showModal(pokemon);
         });
-    }     
+        }
 
     //return
     return {
