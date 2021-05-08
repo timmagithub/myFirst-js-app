@@ -145,7 +145,7 @@ pokemonRepository.loadList().then(function() {
   });
 });
  
-//poekmonapi fetch
+//pokemonapi fetch
 fetch('https://pokeapi.co/api/v2/pokemon/?limit=1118').then(function (response) {
   return response.json(); 
 }).then(function (pokemonList) {
@@ -246,6 +246,13 @@ return-   return to make the output of the functions callable to an
 
 pokemonRepository promise- 
 
+modalContainer- retrieving HTML tag for modal
+
+showModal- modal to display pokemon infortmation on the screen
+
+hideModal- function to hide the modal and event listeners to activate 
+
 poekmonapi fetch- got some pokemon for my empty array
 
 */
+
