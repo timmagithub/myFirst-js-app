@@ -30,10 +30,11 @@ let pokemonRepository = (function() {
         button.classList.add('pokemonbutton');
         listItem.appendChild(button);
         listElement.appendChild(listItem);
-        button.addEventListener('click', function(event){
-            showDetails(pokemon);
-        })
-    }
+        button.addEventListener('click', () => {
+          showDetails(pokemon);
+        });
+        }
+
     //loadList
     function loadList() {
         return fetch(apiUrl).then(function (response) {
