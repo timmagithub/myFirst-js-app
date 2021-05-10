@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
         <link rel="preconnect" href="https://fonts.gstatic.com"> 
         <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100&display=swap" rel="stylesheet">
@@ -10,23 +11,42 @@
     </head>
      <body> 
         <header>
-            <img src="img/logo.svg"  alt="Pokemon rolodex logo" width="200" class="header__item">
-            <h1 class="header__item">Tim Gray's Pokemon Index</h1>
-        </header>
+        </header>    
+        <div>
+            <nav class="navbar fixed-top navbar-black">
+                <img src="img/logo.svg"  alt="Pokemon rolodex logo" width="200" class="header__item">
+                <h1 class="header-item navbar-text">Tim Gray's Pokemon Index</h1>
+            </nav>
+        </div>
         <main>
-            <h2>Here's who I have so far;</h2>
-            <div class="modal-container">    
-            <!--  <div class="modal">
-                    <button class="modal-close"></button>
-                    <h3>Title</h3>
-                    <p>Text</p>
-                </div>  -->
-           </div>
-            <ul class="pokemon-list"></ul>
+            <ul class="list-group"></ul> 
+            <div class="modal fade" id="detailsModal" tabindex="-1" role="dialog" 
+                    aria-labelledby="detailsModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="detailsModalLabel">Title</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary"></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </main>
         <footer>
           <h3>Gotta Catch Them All!</h3>
         </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
             <script src="js/fetch-polyfill.js"></script>
             <script src="js/promise-polyfill.js"></script>
             <script src="js/scripts.js"></script>
