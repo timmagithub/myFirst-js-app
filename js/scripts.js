@@ -92,7 +92,7 @@ let pokemonRepository = (function() {
           
         let typesElement = $('<p>' + 'Types: ' + pokemon.types + '</p>');
 
-        let imgElement = $('<img class="modal-img" style="width:50%">');
+        let imgElement = $('<img class="modal-img" style="width:33%">');
         imgElement.attr('src', pokemon.imageUrl);  
 
         modalTitle.append(nameElement);
