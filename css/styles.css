@@ -63,3 +63,26 @@ ul {
     text-align: center;
 }
 
+@media all and (min-width: 546px) and (max-width: 745px) {
+    .body {
+        margin-top: 222px;
+    }
+}
+
+@media all and (min-width: 336px) and (max-width: 546px) {
+    .body {
+        margin-top: 265px;
+    }
+}
+
+@media all and (min-width: 244px) and (max-width: 336px) {
+    .body {
+        margin-top: 310px;
+    }
+}
+ 
+@media all and (max-width: 244px) {
+    .body {
+        margin-top: 320px;
+    }
+}
