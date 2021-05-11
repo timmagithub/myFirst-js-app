@@ -1,8 +1,8 @@
 :root {
-	--primary-color: #a54de0;
-	--secondary-color: #f58216;
-	--third-color: #32e259;
-    --fourth-color: #f1ba86;
+	--primary-color: #ffcb05;
+	--secondary-color: #2a75bb;
+	--third-color: #c7a008;
+    --fourth-color: #3c5aa6;
     --title-color: rgb(16, 36, 212);
 	--common-padding: 10px;
 	--text-color: #fff;
@@ -44,7 +44,6 @@ ul {
 }
 
 .list-group-item {
-    background-color: var(--third-color);
     max-width: 75%;
     align-self: center;
     margin: 1px;

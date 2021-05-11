@@ -11,14 +11,14 @@
 }
 
 body {
-    background-color: #a54de0;
+    background-color: #ffcb05;
     font-family: 'Josefin Sans', sans-serif;
     font-style: oblique;
     margin-top: 150px;
   }
 
 .navbar {
-    background-color: #f58216;
+    background-color: #2a75bb;
     border-bottom: solid 10px rgba(0,0,0, 0.3);
 }
 
@@ -38,7 +38,7 @@ footer {
         -ms-flex-pack: center;
             justify-content: center;
     padding: 10px; 
-    background-color: #32e259;
+    background-color: #c7a008;
 }   
 
 ul {
@@ -46,21 +46,20 @@ ul {
 }
 
 .list-group-item {
-    background-color: #32e259;
     max-width: 75%;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
     margin: 1px;
-    border: solid 2px #f1ba86;
+    border: solid 2px #3c5aa6;
 }
 
 .modal-content {
-    background-color: #f1ba86;
+    background-color: #3c5aa6;
 }
 
 .modal-header {
-    background-color: #32e259;
+    background-color: #c7a008;
 }
 
 .modal-body {
