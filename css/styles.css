@@ -43,3 +43,23 @@ ul {
     list-style: none;
 }
 
+.list-group-item {
+    background-color: var(--third-color);
+    max-width: 75%;
+    align-self: center;
+    margin: 1px;
+    border: solid 2px var(--fourth-color);
+}
+
+.modal-content {
+    background-color: var(--fourth-color);
+}
+
+.modal-header {
+    background-color: var(--third-color);
+}
+
+.modal-body {
+    text-align: center;
+}
+
