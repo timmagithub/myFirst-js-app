@@ -16,7 +16,7 @@
 
 body {
     background-color: var(--primary-color);
-    font-family: 'Bitter', serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-style: oblique;
     margin-top: 150px;
   }
