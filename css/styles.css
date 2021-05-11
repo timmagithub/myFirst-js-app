@@ -1,7 +1,9 @@
 :root {
-	--primary-color: #eefff8;
-	--secondary-color: #e5f5ee;
-	--tertiary-color: #d2e9e8;
+	--primary-color: #a54de0;
+	--secondary-color: #f58216;
+	--third-color: #32e259;
+    --fourth-color: #f1ba86;
+    --title-color: rgb(16, 36, 212);
 	--common-padding: 10px;
 	--text-color: #fff;
 	--grid-gap: 10px;
@@ -27,13 +29,14 @@ body {
 h1 {
     justify-self: flex-end;
     align-self: center;
+    color: var(--title-color);
 }
 
 footer {
     display: flex;
     justify-content: center;
     padding: var(--common-padding); 
-    background-color: var(--tertiary-color);
+    background-color: var(--third-color);
 }   
 
 ul {
