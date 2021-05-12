@@ -4,10 +4,10 @@
 Hello and welcome to my Pokemon rolodex app. This app utilizes an API that retrieves data from a pokemon character database. 
 
 ### Example Photos
-![Pokedex computer](first-js-app/img/pokedex-scnshot.png)
-![Pokedex modal computer](first-js-app/img/pokedexModal-scnshot.png)
-![Pokedex phone](first-js-app/img/pokedex-phone-scnshot.png)
-![Pokedex modal phone](first-js-app/img/pokedexModal-phone-scnshot.png)
+![Pokedex computer](/img/pokedex-scnshot.png)
+![Pokedex modal computer](/img/pokedexModal-scnshot.png)
+![Pokedex phone](/img/pokedex-phone-scnshot.png)
+![Pokedex modal phone](/img/pokedexModal-phone-scnshot.png)
 
 
 #### How to Use
