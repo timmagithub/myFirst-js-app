@@ -8,7 +8,7 @@ Hello and welcome to my Pokemon rolodex app. This app utilizes an API that retri
 ![Pokedex modal computer](/img/pokedexModal-scnshot.png)
 ![Pokedex phone](/img/pokedex-phone-scnshot.png)
 ![Pokedex modal phone](/img/pokedexModal-phone-scnshot.png)
-
+<img src="/img/pokedex-scnshot.png" alt="Pokedex computer" width="75"/>
 
 ## How to Use
 Click on the names and a modal(window) will pop up displaying some information and an image of the selected pokemon. 
