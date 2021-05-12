@@ -125,9 +125,6 @@ pokemonRepository.loadList().then(function() {
 /* poekmonapi fetch- got some pokemon for my empty array */
 fetch('https://pokeapi.co/api/v2/pokemon/?limit=1118').then(function (response) {
 return response.json(); 
-}).then(function (pokemonList) {
-console.log(pokemonList); 
-}).catch(function () {
 });
 
 
